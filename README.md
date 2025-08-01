@@ -1,9 +1,8 @@
 # 💧 DEHYDRATION SCAN
 
-[🌐 Click here to try the app](https://your-streamlit-app-link)  
+[🌐 Click here to try the app](https://dehydration-scan-87znhxcvudamujk7wvqhjv.streamlit.app/)  
 *A Streamlit web app for detecting dehydration in infants using deep learning.*
 
----
 Dehydration Scan is a deep learning-based web application that detects dehydration in infants through facial images using a trained MobileNetV2 model. The application aims to assist in early-stage identification of dehydration symptoms for better child health monitoring.
 
 ---

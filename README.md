@@ -38,23 +38,6 @@ The front-end is built using Streamlit, providing an easy-to-use web interface f
 The application has been successfully deployed and can be run locally or hosted on cloud platforms.
 
 
-✅ HOW TO RUN LOCALLY
-
-1. Clone the Repository:
-git clone https://github.com/LabhanshPal/Dehydration-Scan.git
-cd Dehydration-Scan/final_project
-
-2. Create a Virtual Environment:
-python -m venv venv
-source venv/bin/activate  (Windows: venv\Scripts\activate)
-
-3. Install Required Dependencies:
-pip install -r ../requirements.txt
-
-4. Launch the App:
-streamlit run app.py
-
-
 ⚙️ TECH STACK
 
 Frontend / UI: Streamlit (Dark Theme)

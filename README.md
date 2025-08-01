@@ -13,8 +13,10 @@ HEALTHY (HYDRATED)
 
 The front-end is built using Streamlit, providing an easy-to-use web interface for users to upload an image and receive instant predictions.
 
+### 📁 PROJECT STRUCTURE
 
-📁 PROJECT STRUCTURE
+```
+Dehydration-Scan/
 ├── Dataset_Split/
 │   ├── Train/
 │   ├── Test/
@@ -26,11 +28,13 @@ The front-end is built using Streamlit, providing an easy-to-use web interface f
 │   ├── Dehydrated_infants/
 │   └── Healthy_infants/
 ├── final_project/
-│   ├── app.py                  # Streamlit Web App
-│   ├── dehydration.py          # Model Training and Preprocessing
-│   ├── cv2_handler.py          # OpenCV Handler (Experimental)
-├── dehydration_model.h5        # Trained Model File
-├── requirements.txt            # Required Python Packages
+│   ├── app.py                # Streamlit Web App
+│   ├── dehydration.py        # Model Training and Preprocessing
+│   ├── cv2_handler.py        # OpenCV Handler (Experimental)
+├── dehydration_model.h5      # Trained Model File
+├── requirements.txt          # Required Python Packages
+```
+
 
 
 🚀 DEPLOYMENT

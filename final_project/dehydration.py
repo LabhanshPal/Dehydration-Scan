@@ -176,7 +176,7 @@ plt.title('Model Loss')
 plt.show()
 
 # Manual prediction
-image_path1 = r"C:\\Users\\ASUS\\Desktop\\ai_for_dehydration\\Dataset_Split\\Test\\Healthy_Infants\\Screenshot 2025-03-18 005800.png"
+image_path1 = "Dataset_Split/Test/Healthy_Infants/Screenshot 2025-03-18 005800.png"
 sample_image1 = cv2.imread(image_path1)
 sample_image1 = cv2.resize(sample_image1, (224, 224))
 sample_image1 = np.expand_dims(sample_image1, axis=0)
@@ -186,8 +186,8 @@ print(f"Predicted Value: {prediction1}")
 print("Dehydration Detected" if prediction1[0][0] > 0.5 else "No Dehydration")
 
 # Batch prediction testing
-# healthy_folder = r"C:\\Users\\ASUS\\Desktop\\ai_for_dehydration\\Dataset_Split\\Test\\Healthy_Infants"
-# dehydrated_folder = r"C:\\Users\ASUS\\Desktop\\ai_for_dehydration\\Dataset_Split\\Test\\Dehydrated_Infants"
+# healthy_folder = "Dataset_Split/Test/Healthy_Infants"
+# dehydrated_folder = "Dataset_Split/Test/Dehydrated_Infants"
 # def test_images(folder, label):
 #     for filename in os.listdir(folder)[:20]:
 #         img_path = os.path.join(folder, filename)

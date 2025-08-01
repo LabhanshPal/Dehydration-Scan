@@ -1,6 +1,7 @@
 ### 💧 DEHYDRATION SCAN
 
 Dehydration Scan is a deep learning-based web application that detects dehydration in infants through facial images using a trained MobileNetV2 model. The application aims to assist in early-stage identification of dehydration symptoms for better child health monitoring.
+
 ---
 ### 🧠 PROJECT DESCRIPTION
 
@@ -12,6 +13,7 @@ HEALTHY (HYDRATED)
 
 The front-end is built using Streamlit, providing an easy-to-use web interface for users to upload an image and receive instant predictions.
 
+---
 ### 📁 PROJECT STRUCTURE
 
 ```
@@ -34,13 +36,12 @@ Dehydration-Scan/
 ├── requirements.txt          # Required Python Packages
 ```
 
-
-
+---
 ### 🚀 DEPLOYMENT
 
 The application has been successfully deployed and can be run locally or hosted on cloud platforms.
 
-
+---
 ### ⚙️ TECH STACK
 
 Frontend / UI: Streamlit (Dark Theme)
@@ -51,7 +52,7 @@ Preprocessing: OpenCV, NumPy
 
 Visualization (optional): Matplotlib
 
-
+---
 ### 📸 FEATURES
 
 Upload infant face images (JPG / PNG supported)
@@ -62,7 +63,7 @@ Interactive, clean UI with dark mode and animation effects
 
 Handles real-time webcam or file-based image predictions
 
-
+---
 ### 🧠 Model Details
 
 Base Model: MobileNetV2 (pre-trained on ImageNet)
@@ -79,7 +80,7 @@ Loss Function: Binary Crossentropy
 
 Optimizer: Adam (learning rate = 0.0001)
 
-
+---
 ### 📦 Dataset
 
 The dataset used in this project contains two categories:
@@ -88,7 +89,7 @@ Healthy_Infants: Infants without visible signs of dehydration
 
 Dehydrated_Infants: Infants with visible signs like sunken eyes, dry lips, etc.
 
-
+---
 ### ⚠️ Edge Cases Tested
 
 🟡 Blank images → Flagged as Hydrated (low confidence)
@@ -99,8 +100,7 @@ Dehydrated_Infants: Infants with visible signs like sunken eyes, dry lips, etc.
 
 🔜 Planned: Confidence score display and alert for "uncertain input"
 
-
-
+---
 ### ✨ Future Improvements
 
 Add support for video/frame-wise detection
@@ -111,13 +111,14 @@ Improve robustness against irrelevant input
 
 Deploy mobile app version
 
-
-
+---
 ### 🙋‍♂️ AUTHOR
 
 Labhansh Pal
 
 B.Tech in Computer Science and Engineering (AI & DS)
+
+
 
 GitHub: LabhanshPal
 

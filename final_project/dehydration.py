@@ -1,5 +1,5 @@
 import os
-# import cv2
+import cv2
 import shutil
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,8 +36,8 @@ def preprocess_images(input_folder, output_folder, img_size=(224, 224)):
     print(f"Processed {processed_count} images in {input_folder}")
 
 # Preprocess both classes
-# preprocess_images("Dataset/Healthy_Infants", "Preprocessed/Healthy_Infants")
-# preprocess_images("Dataset/Dehydrated_Infants", "Preprocessed/Dehydrated_Infants")
+preprocess_images("Dataset/Healthy_Infants", "Preprocessed/Healthy_Infants")
+preprocess_images("Dataset/Dehydrated_Infants", "Preprocessed/Dehydrated_Infants")
 
 # Dataset splitting
 INPUT_DIR = "Preprocessed"
